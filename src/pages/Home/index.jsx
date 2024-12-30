@@ -4,7 +4,19 @@ import Footer from '../../assets/components/Footer'
 const Home = () => {
     return (
         <>
-            <h3>Tela Inicial</h3>
+            <section className='home'>
+                <div className='avencer'>
+                    
+                </div>
+
+            </section>
+
+
+
+
+
+
+
             <Footer />
         </>
         
