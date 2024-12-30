@@ -1,15 +1,17 @@
+import { Link } from 'react-router'
 import './Header.css'
 
 const Header = () => {
     return (
-        <section>
+        
             <header>
-                <button>Home</button>
-                <button>Clientes</button>
-                <button>Chaves</button>
-            </header>            
-        </section>
-                
+                <nav>
+                    <button>Home</button>
+                    <button>Clientes</button>
+                    <button>Chaves</button>
+                </nav>
+            </header>
+
     )
 }
 
