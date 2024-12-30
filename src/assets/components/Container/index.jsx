@@ -1,9 +1,9 @@
 import "./Container.css"
 
-const Container = () => {
+const Container = ({children}) => {
     return (
         <section>
-            <h1>Esse será o container onde ficará todas as telas da aplicação</h1>
+            {children}
         </section>
         
     )
